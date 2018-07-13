@@ -14,7 +14,7 @@ array.each do |e|
   if e.length < 4
     array.delete(e)
   end
-  if array.count > 0
+  if array.length > 0
      true
   else
      false
