@@ -10,11 +10,10 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)# code an argument here
-  re[]
-  array.each { |e| re << (e.length > 3)   }
-  # Your code here
-  re.empty?
-
+array.each { |e| if e.length < 4 then array.delete(e)}
+  if array.empty?
+  else true 
+  end
 end
 
 def find_the_cheese# code an argument here
