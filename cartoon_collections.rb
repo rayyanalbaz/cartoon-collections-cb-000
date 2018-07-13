@@ -15,8 +15,8 @@ array.each do |e|
     array.delete(e)
   end
   if array.count > 0
-    return true 
-  else 
+    return true
+  else
     return false
   end
 
