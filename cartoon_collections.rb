@@ -13,6 +13,8 @@ def long_planeteer_calls(array)# code an argument here
   re[]
   array.each { |e| re << (e.length > 3)   }
   # Your code here
+  re.empty?
+  
 end
 
 def find_the_cheese# code an argument here
