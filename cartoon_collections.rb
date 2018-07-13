@@ -12,7 +12,11 @@ end
 def long_planeteer_calls(array)# code an argument here
   array.delete_if { |e|  e.length < 4}
   # Your code here
-
+  if array.count < 1 
+    false 
+  else
+    true
+  end
 end
 
 def find_the_cheese# code an argument here
