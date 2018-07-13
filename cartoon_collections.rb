@@ -14,12 +14,12 @@ array.each do |e|
   if e.length < 4
     array.delete(e)
   end
-  if array.count > 0 
-    return true 
-  else 
-    return false 
+  if array.count > 0
+    return true
+  else
+    return false
   end
-  
+
 end
 
 end
