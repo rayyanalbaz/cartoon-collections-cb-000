@@ -16,9 +16,7 @@ array.each do |e|
   end
   if array.length > 0
   return   true
-  else
-  return  false
-  end
+end
 
 end
 
