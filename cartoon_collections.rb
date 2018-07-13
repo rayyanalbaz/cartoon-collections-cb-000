@@ -13,9 +13,9 @@ def long_planeteer_calls(array)# code an argument here
   array.each { |e| if e.length <= 3 then array.delete(e) end}
   # Your code here
   if array.size > 0
-    return true
+     true
   elsif array.size == 0
-    return array
+     false
   end
 end
 
