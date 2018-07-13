@@ -14,6 +14,11 @@ array.each do |e|
   if e.length < 5
     array.delete(e)
   end
+  if array.count > 0
+    return true 
+  else 
+    return false
+  end
 
 
 end
